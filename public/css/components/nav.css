@@ -1,0 +1,50 @@
+.nav-menu{
+    --color-one: var(--color-uno);
+    --color-two: var(--color-cuatro);
+    --color-two-alternative: var(--color-tres);
+    --color-three: var(--color-seis);
+    --color-three-alternative: var(--color-tres);
+    --color-four: var(--color-cinco);
+}
+
+/* MD */
+@media(min-width: 768px){
+    /**/
+}
+
+/* LG */
+@media(min-width: 1024px){
+    .nav-menu .nav-link,
+    .collapsable.opened .collapsable-menu .collapsable-link{
+        color: var(--color-seis);
+    }
+
+    .collapsable:hover.closed .collapsable-menu, .collapsable:hover .collapsable-menu, .collapsable .collapsable-menu{
+        background-color: var(--color-cinco);
+    }
+
+    .collapsable.opened .collapsable-menu{
+        background-color: var(--color-cuatro);
+    }
+
+    .collapsable.closed .collapsable-menu .collapsable-link{
+        color: var(--color-seis);
+    }
+
+    .collapsable.closed .collapsable-menu .collapsable-link:hover{
+        color: var(--color-tres);
+    }
+
+    .collapsable.opened .collapsable-menu .collapsable-link{
+        color: var(--color-cinco);
+    }
+
+    .collapsable.opened .collapsable-menu .collapsable-link:hover{
+        color: var(--color-seis);
+    }
+}
+
+/* XL */
+@media(min-width: 1200px){
+    /**/
+}

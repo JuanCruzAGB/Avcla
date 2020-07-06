@@ -1,0 +1,44 @@
+@import '../components/banner.css';
+@import '../components/footer.css';
+@import '../components/nav.css';
+@import '../components/whatsapp.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    --color-uno: #32aed7;
+    --color-dos: #ffda67;
+    --color-tres: #01cf8b;
+    --color-cuatro: #dbdbdb;
+    --color-cinco: #fff;
+    --color-seis: #222;
+    min-height: 100vh;
+    background-color: var(--color-cinco);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color-seis);
+}
+
+.main{
+    min-height: 100vh;
+}
+
+/* MD */
+@media(min-width: 768px){
+    /**/
+}
+
+/* LG */
+@media(min-width: 1024px){
+    /**/
+}
+
+/* XL */
+@media(min-width: 1200px){
+    /**/
+}
